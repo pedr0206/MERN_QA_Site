@@ -18,7 +18,7 @@ class Votes extends Component {
         return(
             <div>
                 <Button onClick={(event) => this.handleButtonClick(event)} type="submit" className="btn" data-testid="votes-button">
-                    <h1>Nice!</h1>
+                    <h4>Vote</h4>
                 </Button>
             </div>
         );
